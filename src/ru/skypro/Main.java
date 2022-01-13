@@ -39,7 +39,7 @@ public class Main {
 
             System.out.println();
             //3
-            for (byte i = 0; i < 6; i++) {
+            for (byte i = 0; i <= infinityStone.length - 1; i++) {
                 if (i != infinityStone.length - 1) {
                     System.out.print(infinityStone[i] + ", ");
                 } else {
