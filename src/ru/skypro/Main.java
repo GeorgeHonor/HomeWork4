@@ -19,7 +19,7 @@ public class Main {
         numbers[1] = 2;
         numbers[2] = 3;
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] <= numbers.length - 1) {
+            if (i != numbers.length - 1) {
                 System.out.print(numbers[i] + ", ");
             } else {
                 System.out.print(numbers[i] + " ");
@@ -40,7 +40,7 @@ public class Main {
             System.out.println();
             //3
             for (byte i = 0; i < 6; i++) {
-                if (infinityStone[i] <= infinityStone.length - 1) {
+                if (i != infinityStone.length - 1) {
                     System.out.print(infinityStone[i] + ", ");
                 } else {
                     System.out.print(infinityStone[i] + " ");
